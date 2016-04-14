@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 readme_path = os.path.join(os.path.dirname(__file__), "README.md")
 
-with open("requirement.txt") as f:
+with open("requirements.txt") as f:
     install_requires = ([l.strip() for l in f.readlines()])
 
 # Get the long description from README.md
